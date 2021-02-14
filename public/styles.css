@@ -1,0 +1,50 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 155, 192);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a:link {
+	font-size: 40px;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+  h1{
+    font-size: 40px;
+   
+  }
+  .image{
+width: 500px;
+margin-left: 700px;
+margin-top: 100px;  }
+
+
+h2{
+  margin-left: 350px;
+}
+body{
+  background-image:url(https://www.freecodecamp.org/news/content/images/2020/04/w-qjCHPZbeXCQ-unsplash.jpg);
+}
+h3{
+  margin-left: 300px;
+  font-size: 60px;
+}
+.video{
+  margin-left: 600px;
+}
+#orata-main-page-content{
+  margin-left: 400px;
+  font-size: 30px;
+  
+}

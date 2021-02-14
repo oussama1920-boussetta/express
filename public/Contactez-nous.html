@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-nous</title>
+</head>
+<body>
+    <div class="nav">
+
+    <h1>Contactez-nous</h1>
+    <a href="/index.html">Acceil</a>
+    <a href="/Nos services.html">Nos services</a>
+</div>
+<div id="orata-main-page-content" class="box-section">
+    <section>
+        <div class="container">
+            <h2 class="page-header">
+Contactez nous par mail</h2>
+<p>
+<strong>
+    N'hésitez pas à nous contacter pour tout renseignement.    </strong>
+</p>
+
+<form action="http://www.site-demo-cer.com/contact.html" method="post" name="envoie_mail" role="form">
+<input name="captchatest" type="hidden" value="NND34">
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="form-group">
+            <label for="mail">Email <span style="color:#f00;">*</span> :</label>
+            <input type="email" class="form-control" name="mail" required="" placeholder="Votre email" value="">
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="form-group">
+            <label for="telephone">Téléphone  :</label>
+            <input type="tel" class="form-control" name="telephone" placeholder="Votre N° de téléphone" pattern="^((\+\d{1,3}(-| )?\(?\d\)?(-| )?\d{1,5})|(\(?\d{2,6}\)?))(-| )?(\d{3,4})(-| )?(\d{4})(( x| ext)\d{1,5}){0,1}$" value="">
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="form-group">
+            <label for="nom">Nom - Prénom <span style="color:#f00;">*</span> :</label>
+            <input type="text" class="form-control" name="nom" required="" placeholder="Votre nom et prénom" value="">
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="form-group">
+            <label for="sujet">Sujet <span style="color:#f00;">*</span> :</label>
+            <input type="text" class="form-control" name="sujet" required="" placeholder="Votre objet / sujet" value="">
+        </div>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="message">Message - Question - Demande de renseignement <span style="color:#f00;">*</span> :</label>
+    <textarea class="form-control" name="message" placeholder="Votre message"></textarea>
+</div>
+
+<div class="form-group">
+    <label for="captcha">Vous n'êtes pas un robot ?</label>
+    <div class="row">
+        <div class="col-md-4">
+            <img class="captcha-img img-responsive" src="https://www.auto-ecole.info/monsiteweb/captcha/captcha.php?code=DDNYX" alt="Recopiez le texte">
+        </div>
+        <div class="col-md-8">
+            <input type="text" class="form-control" name="captcha" required="" autocomplete="off">
+            <p class="help-block">Recopiez le texte de l'image à l'identique. <span style="color:#f00;">*</span></p>
+        </div>
+    </div>
+</div>
+        
+    <div class="form-group">
+        <label for="rgpd">
+            <input type="checkbox" id="rgpd" name="rgpd" value="1" required="">
+            En soumettant ce formulaire, j'accepte que les informations saisies soient exploitées dans le cadre de la demande et de la relation commerciale qui peut en découler.            </label>
+    </div>
+    <button type="submit" class="btn btn-primary" name="submit">Envoyer</button>
+<p class="politiqueConfidentialiteTexte" hidden="">
+    <small>Pour connaître et exercer vos droits, notamment de retrait de votre consentement à l'utilisation
+des données collectées par ce formulaire, <a href="mentions-legales.html#politiqueConfidentialite" title="Accéder à la page">veuillez consulter notre politique de confidentialité</a>.</small>
+</p>
+</form>
+<div id="socialBtnBottom" class="row"></div>                            </div>
+    </section>
+</div>
+
+</body>
+</html>
